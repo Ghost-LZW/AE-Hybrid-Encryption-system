@@ -1,4 +1,4 @@
-# AEC-ECC 混合加密系统
+# AES-ECC 混合加密系统
 
 采用AES和ECC和混合加密
 
