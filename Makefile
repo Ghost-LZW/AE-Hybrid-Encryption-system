@@ -10,7 +10,7 @@ ecc : BigNum.o ecc.o
 	g++ -o ecc ecc.o BigNum.o
 
 ecc.o :
-	g++ -c ./src/ecc/ecc.cc
+	g++ -c ./src/ecc/ecc.cc -std=c++14
 
 test.o :
 	g++ -c ./src/test/main.cc
